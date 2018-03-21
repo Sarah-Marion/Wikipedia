@@ -28,3 +28,39 @@ body {
 .say-yes-to-bullets {
   list-style-type: disc;
 }
+.go-right {
+  text-align: right;
+}
+
+.sidelist li {
+  margin: 0;
+  padding: 0;
+  display: inline;
+}
+
+.sidebar-wrapper {
+  float: left;
+  width: 160px;
+  padding: 8px;
+  display: inline;
+}
+
+.container {
+  display: block;
+  position: absolute;
+  left: 165px;
+}
+
+.sidenav-ul {
+  list-style: none;
+}
+
+.sidenav-ul li {
+  padding-left: 0px;
+  font-size: .85em;
+}
+
+.sidenav-list-head {
+  text-decoration: underline;
+  text-decoration-color: gray;
+}
