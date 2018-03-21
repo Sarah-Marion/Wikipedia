@@ -1,0 +1,30 @@
+/** {
+  list-style: none;
+}*/
+
+body {
+  font-family: sans-serif;
+  text-decoration: none;
+}
+
+#log-in-ul {
+  display: inline;
+  float:right;
+}
+
+#logo {
+  width: 160px;
+}
+
+#topic-table {
+  float: right;
+  padding: 3px;
+}
+
+#picture-notes {
+  margin: 120px 5px;
+}
+
+.say-yes-to-bullets {
+  list-style-type: disc;
+}
