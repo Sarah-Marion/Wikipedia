@@ -64,3 +64,37 @@ body {
   text-decoration: underline;
   text-decoration-color: gray;
 }
+/*#featured-did-you-know{
+  background-color: rgba(206, 242, 224,.);
+}*/
+
+.panel-title {
+  color: black;
+}
+
+.panel {
+  margin: 0px auto;
+}
+
+.panel-success {
+  background-color: rgba(206, 242, 224,.5);
+}
+
+.panel-success .panel-heading {
+  background-color: rgba(206, 242, 224,1);
+}
+
+.panel-info {
+  background-color: rgba(206, 223, 242,.5);
+}
+
+.panel-info .panel-heading {
+  background-color: rgba(206, 223, 242,1);
+}
+
+.panel-danger {
+  background-color: rgba(221, 206, 242,.5);
+}
+.panel-danger .panel-heading {
+  background-color: rgba(221, 206, 242,1);
+}
