@@ -64,10 +64,15 @@ body {
   text-decoration: underline;
   text-decoration-color: gray;
 }
+.gray-Col{
+  background-color: rgba(0,0,0,0.096);
+}
 /*#featured-did-you-know{
   background-color: rgba(206, 242, 224,.);
 }*/
-
+.sidebar-wrapper{
+  background-color: rgba(0,0,0,0.096);
+}
 .panel-title {
   color: black;
 }
