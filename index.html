@@ -1,243 +1,261 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
-    <link href="css/styles.css" rel="stylesheet" type="text/css" media="all">
-    <title>Wikipedia, the free encyclopedia</title>
-  </head>
-  <body>
-    <div class="sidebar-wrapper">
-      <img id="logo" src="img/wp-logo.png" alt="The Wikipedia Logo" />
-      <ul class="sidenav-ul">
-        <li><a href="#">Main Page</a></li>
-        <li><a href="#">Contents</a></li>
-        <li><a href="#">Featured content</a></li>
-        <li><a href="#">Current events</a></li>
-        <li><a href="#">Random article</a></li>
-        <li><a href="#">Donate to Wikipedia</a></li>
-        <li><a href="#">Wikipedia store</a></li>
-      </ul>
-      <header class="sidenav-list-head">Interaction</header>
-      <ul class="sidenav-ul">
-        <li><a href="#">Help</a></li>
-        <li><a href="#">About Wikipedia</a></li>
-        <li><a href="#">Community portal</a></li>
-        <li><a href="#">Recent changes</a></li>
-        <li><a href="#">Contact page</a></li>
-      </ul>
-      <header class="sidenav-list-head">Tools</header>
-      <ul class="sidenav-ul">
-        <li><a href="#">What links here</a></li>
-        <li><a href="#">Related changes</a></li>
-        <li><a href="#">Upload file</a></li>
-        <li><a href="#">Special pages</a></li>
-        <li><a href="#">Permanent link</a></li>
-        <li><a href="#">Page information</a></li>
-        <li><a href="#">Wikidata item</a></li>
-      </ul>
-      <header class="sidenav-list-head">Print/Export</header>
-      <ul class="sidenav-ul">
-        <li><a href="#">Create a book</a></li>
-        <li><a href="#">Download as PDF</a></li>
-        <li><a href="#">Printable Version</a></li>
-      </ul>
-      <div class="container">
-      <div class="header-wrapper">
-        <div class="row">
-          <ul id="log-in-ul" class="sidelist">
-            <li>Talk</li>
-            <li>Contributions</li>
-            <li>Create account</li>
-            <li>Log in</li>
+
+<head>
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
+  <link href="css/styles.css" rel="stylesheet" type="text/css" media="all">
+  <title>Wikipedia, the free encyclopedia</title>
+</head>
+
+<body>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-2" >
+        <div class="sidebar-wrapper">
+          <img id="logo" src="img/wikipedia1.png" alt="The Wikipedia Logo" />
+          <ul class="sidenav-ul">
+            <li><a href="#">Main Page</a></li>
+            <li><a href="#">Contents</a></li>
+            <li><a href="#">Featured content</a></li>
+            <li><a href="#">Current events</a></li>
+            <li><a href="#">Random article</a></li>
+            <li><a href="#">Donate to Wikipedia</a></li>
+            <li><a href="#">Wikipedia store</a></li>
           </ul>
-        </div>
-        <div class="row">
-          <ul class="nav nav-tabs navbar-left">
-            <li role="presentation" class="active"><a href="#">Main Page</a></li>
-            <li role="presentation"><a href="#">Talk</a></li>
+          <header class="sidenav-list-head">Interaction</header>
+          <ul class="sidenav-ul">
+            <li><a href="#">Help</a></li>
+            <li><a href="#">About Wikipedia</a></li>
+            <li><a href="#">Community portal</a></li>
+            <li><a href="#">Recent changes</a></li>
+            <li><a href="#">Contact page</a></li>
           </ul>
-          <ul class="nav nav-tabs navbar-right">
-            <li role="presentation" class="active"><a href="#">Read</a></li>
-            <li role="presentation"><a href="#">View source</a></li>
-            <li role="presentation"><a href="#">View history</a></li>
-            <li>
-              <form class="navbar-form navbar-left" role="search">
-                <div class="form-group">
-                  <input type="text" class="form-control" placeholder="Search Wikipedia">
-                </div>
-                <button type="button" class="btn btn-default btn-sm">
-                  <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
-                </button>
-              </form>
-            </li>
+          <header class="sidenav-list-head">Tools</header>
+          <ul class="sidenav-ul">
+            <li><a href="#">What links here</a></li>
+            <li><a href="#">Related changes</a></li>
+            <li><a href="#">Upload file</a></li>
+            <li><a href="#">Special pages</a></li>
+            <li><a href="#">Permanent link</a></li>
+            <li><a href="#">Page information</a></li>
+            <li><a href="#">Wikidata item</a></li>
+          </ul>
+          <header class="sidenav-list-head">Print/Export</header>
+          <ul class="sidenav-ul">
+            <li><a href="#">Create a book</a></li>
+            <li><a href="#">Download as PDF</a></li>
+            <li><a href="#">Printable Version</a></li>
           </ul>
         </div>
       </div>
-      <div class="content-wrapper">
-        <div id="welcome-row" class="row">
 
-          <div class="col-xs-6">
-            <p>Welcome to <a href="#">Wikipedia,</a></p>
-            <p>the <a href="#">free encyclopedia</a> that <a href="#">anyone can edit.</a></p>
-            <p><a href="#">5,388,514</a> articles in <a href="#">English</a></p>
+      <div class="col-md-10">
+        <div class="header-wrapper">
+          <div class="row">
+            <ul id="log-in-ul" class="sidelist">
+              <li>Talk</li>
+              <li>Contributions</li>
+              <li>Create account</li>
+              <li>Log in</li>
+            </ul>
           </div>
-          <div class="col-xs-6">
-            <table id="topic-table">
-              <tr>
-                <td><li><a href="#">Arts</a></li></td>
-                <td><li><a href="#">History</a></li></td>
-                <td><li><a href="#">Society</a></li></td>
-              </tr>
-              <tr>
-                <td><li><a href="#">Biography</a></li></td>
-                <td><li><a href="#">Mathematics</a></li></td>
-                <td><li><a href="#">Technology</a></li></td>
-              </tr>
-              <tr>
-                <td><li><a href="#">Geography</a></li></td>
-                <td><li><a href="#">Science</a></li></td>
-                <td><li><a href="#"><strong>All portals</strong></a></li></td>
-              </tr>
-            </table>
+
+          <div class="row">
+            <ul class="nav nav-tabs navbar-left">
+              <li role="presentation" class="active"><a href="#">Main Page</a></li>
+              <li role="presentation"><a href="#">Talk</a></li>
+            </ul>
+            <ul class="nav nav-tabs navbar-right">
+              <li role="presentation" class="active"><a href="#">Read</a></li>
+              <li role="presentation"><a href="#">View source</a></li>
+              <li role="presentation"><a href="#">View history</a></li>
+              <li>
+                <form class="navbar-form navbar-left" role="search">
+                  <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Search Wikipedia">
+                  </div>
+                  <button type="button" class="btn btn-default btn-sm">
+                  <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+                </button>
+                </form>
+              </li>
+            </ul>
           </div>
         </div>
-        <div id="featured-news-row"class="row">
-          <div id="featured-did-you-know" class="col-md-7">
-            <div class="panel panel-success">
-              <div class="panel-heading">
-                <h3 class="panel-title"><strong>From today's featured article</strong></h3>
-              </div>
-              <div class="panel-body">
-                <p>Resident Evil: Apocalypse is a 2004 science fiction action
-                 horror film filmed in Toronto, Canada, directed by Alexander
-                  Witt and written by Paul W. S. </p>
+
+        <div class="content-wrapper">
+          <div id="welcome-row" class="row gray-Col"">
+
+            <div class="col-md-6">
+              <p>Welcome to <a href="#">Wikipedia,</a></p>
+              <p>the <a href="#">free encyclopedia</a> that <a href="#">anyone can edit.</a></p>
+              <p><a href="#">5,388,514</a> articles in <a href="#">English</a></p>
+            </div>
+            <div class="col-md-6">
+              <table id="topic-table">
+                <tr>
+                  <td>
+                    <li><a href="#">Arts</a></li>
+                  </td>
+                  <td>
+                    <li><a href="#">History</a></li>
+                  </td>
+                  <td>
+                    <li><a href="#">Society</a></li>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <li><a href="#">Biography</a></li>
+                  </td>
+                  <td>
+                    <li><a href="#">Mathematics</a></li>
+                  </td>
+                  <td>
+                    <li><a href="#">Technology</a></li>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <li><a href="#">Geography</a></li>
+                  </td>
+                  <td>
+                    <li><a href="#">Science</a></li>
+                  </td>
+                  <td>
+                    <li><a href="#"><strong>All portals</strong></a></li>
+                  </td>
+                </tr>
+              </table>
+            </div>
+          </div>
+
+          <div id="featured-news-row" class="row">
+            <div id="featured-did-you-know" class="col-md-6">
+              <div class="panel panel-success">
+                <div class="panel-heading">
+                  <h3 class="panel-title"><strong>From today's featured article</strong></h3>
                 </div>
-              <div class="panel-footer panel-success">
-                <p>Resident Evil: Apocalypse is a 2004 science fiction action
-                 horror film filmed in Toronto, Canada, directed by Alexander
-                  Witt and written by Paul W. S.</p>
-                <ul class="sidelist">
-                  <strong>
+                <div class="panel-body">
+                  <p>Resident Evil: Apocalypse is a 2004 science fiction action horror film filmed in Toronto, Canada, directed by Alexander Witt and written by Paul W. S. </p>
+                </div>
+                <div class="panel-footer panel-success">
+                  <p>Resident Evil: Apocalypse is a 2004 science fiction action horror film filmed in Toronto, Canada, directed by Alexander Witt and written by Paul W. S.</p>
+                  <ul class="sidelist">
+                    <strong>
                     <li><a href="#">Archive</a></li>
                     <li><a href="#">By Email</a></li>
                     <li><a href="#">More featured articles...</a></li>
                   </strong>
-                </ul>
+                  </ul>
+                </div>
               </div>
-          </div>
-          <div class="panel panel-success">
-            <div class="panel-heading">
-              <h3 class="panel-title"><strong>Did you know...</strong></h3>
-            </div>
-            <div class="panel-body">
-              <ul class="say-yes-to-bullets">
-                <li>Donec id elit non mi porta gravida</li>
-                <li>Donec id elit non mi porta gravida</li>
-                <li>Donec id elit non mi porta gravida</li>
-                <li>Donec id elit non mi porta gravida</li>
-                <li>Donec id elit non mi porta gravida</li>
-                <li>Donec id elit non mi porta gravida</li>
-                </ul>
-              </div>
-              <div class="panel-footer panel-success">
-                <ul class="sidelist">
-                  <strong>
+              <div class="panel panel-success">
+                <div class="panel-heading">
+                  <h3 class="panel-title"><strong>Did you know...</strong></h3>
+                </div>
+                <div class="panel-body">
+                  <ul class="say-yes-to-bullets">
+                    <li>Donec id elit non mi porta gravida</li>
+                    <li>Donec id elit non mi porta gravida</li>
+                    <li>Donec id elit non mi porta gravida</li>
+                    <li>Donec id elit non mi porta gravida</li>
+                    <li>Donec id elit non mi porta gravida</li>
+                    <li>Donec id elit non mi porta gravida</li>
+                  </ul>
+                </div>
+                <div class="panel-footer panel-success">
+                  <ul class="sidelist">
+                    <strong>
                     <li><a href="#">Recent additions</a></li>
                     <li><a href="#">Start a new article</a></li>
                     <li><a href="#">Nominate an article</a></li>
                   </strong>
-                </ul>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6">
+              <div class="panel panel-info">
+                <div class="panel-heading">
+                  <h3 class="panel-title"><strong>In the news</strong></h3>
+                </div>
+                <div class="panel-body">
+                  <ul class="say-yes-to-bullets">
+                    <li>Brazilian politician and human rights activist Marielle Franco is killed in a shooting in Rio de Janeiro</li>
+                    <li>Donec id elit non mi porta gravida</li>
+                    <li>Donec id elit non mi porta gravida</li>
+                    <li>Donec id elit non mi porta gravida</li>
+                    <li>Donec id elit non mi porta gravida</li>
+                    <li>Donec id elit non mi porta gravida</li>
+                    <li>Donec id elit non mi porta gravida</li>
+                  </ul>
+                </div>
+                <div class="panel-footer panel-info">
+                  <p>The National Basketball Association All-Star Game Most Valuable Player (MVP) is an annual National Basketball Association (NBA) award given to the player(s)</p>
+                  <ul class="sidelist">
+                    <li><strong>Recent Deaths</strong>:</li>
+                    <li>Aaron Hernandez</li>
+                    <li>Rosey</li>
+                    <li>Allan Holdsworth</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="panel panel-info">
+                <div class="panel-heading">
+                  <h3 class="panel-title"><strong>On this day...</strong></h3>
+                </div>
+                <div class="panel-body">
+                  <p>The National Basketball Association All-Star Game Most Valuable Player (MVP) is an annual National Basketball Association (NBA) award given to the player(s)</p>
+                  <ul class="say-yes-to-bullets">
+                    <li>Donec id elit non mi porta gravida</li>
+                    <li>Donec id elit non mi porta gravida</li>
+                    <li>Donec id elit non mi porta gravida</li>
+                    <li>Donec id elit non mi porta gravida</li>
+                    <li>Donec id elit non mi porta gravida</li>
+                    <li>Donec id elit non mi porta gravida</li>
+                  </ul>
+                </div>
+                <div class="panel-footer panel-info">
+                </div>
               </div>
             </div>
           </div>
-          <div class="col-md-5">
-            <div class="panel panel-info">
+          <div id="featured-pic-row" class="row">
+            <div class="panel panel-danger">
               <div class="panel-heading">
-                <h3 class="panel-title"><strong>In the news</strong></h3>
+                <h3 class="panel-title"><strong>Today's featured picture</strong></h3>
               </div>
               <div class="panel-body">
-                <ul class="say-yes-to-bullets">
-                  <li>Brazilian politician and human rights activist
-                  Marielle Franco is killed in a shooting in Rio
-                  de Janeiro</li>
-              <li>Donec id elit non mi porta gravida</li>
-              <li>Donec id elit non mi porta gravida</li>
-              <li>Donec id elit non mi porta gravida</li>
-              <li>Donec id elit non mi porta gravida</li>
-              <li>Donec id elit non mi porta gravida</li>
-              <li>Donec id elit non mi porta gravida</li>
-                </ul>
-              </div>
-              <div class="panel-footer panel-info">
-                <p>The National Basketball Association All-Star Game
-               Most Valuable Player (MVP) is an annual National
-                Basketball Association (NBA) award given to the player(s)</p>
-                <ul class="sidelist">
-                  <li><strong>Recent Deaths</strong>:</li>
-                  <li>Aaron Hernandez</li>
-                  <li>Rosey</li>
-                  <li>Allan Holdsworth</li>
-                </ul>
+                <img id="#" src="#" alt="something" />
+                <div id="#">
+                  <p>The National Basketball Association All-Star Game Most Valuable Player (MVP) is an annual National Basketball Association (NBA) award given to the player(s)</p>
+                  <p class="go-right">
+                    The National Basketball Association All-Star Game Most Valuable Player (MVP) is an annual National Basketball Association (NBA) award given to the player(s)
+                  </p>
+                  <p class="go-right">
+                    <strong>Archive More + featured pictures...</strong>
+                  </p>
+                </div>
               </div>
             </div>
-            <div class="panel panel-info">
-              <div class="panel-heading">
-                <h3 class="panel-title"><strong>On this day...</strong></h3>
-              </div>
-              <div class="panel-body">
-                <p>The National Basketball Association All-Star Game
-               Most Valuable Player (MVP) is an annual National
-                Basketball Association (NBA) award given to the player(s)</p>
-                <ul class="say-yes-to-bullets">
-                  <li>Donec id elit non mi porta gravida</li>
-                  <li>Donec id elit non mi porta gravida</li>
-                  <li>Donec id elit non mi porta gravida</li>
-                  <li>Donec id elit non mi porta gravida</li>
-                  <li>Donec id elit non mi porta gravida</li>
-                  <li>Donec id elit non mi porta gravida</li>
-                </ul>
-              </div>
-              <div class="panel-footer panel-info">
-              </div>
+
+            <div id="other-areas-row" class="row">
+
+            </div>
+            <div id="sis-projects-row" class="row">
+
+            </div>
+            <div id="languages-row" class="row">
+
             </div>
           </div>
-        </div>
-        <div id="featured-pic-row" class="row">
-          <div class="panel panel-danger">
-            <div class="panel-heading">
-              <h3 class="panel-title"><strong>Today's featured picture</strong></h3>
-            </div>
-            <div class="panel-body">
-              <img id="#" src="#" alt="something" />
-              <div id="#">
-                <p>The National Basketball Association All-Star Game
-               Most Valuable Player (MVP) is an annual National
-                Basketball Association (NBA) award given to the player(s)</p>
-                <p class="go-right">
-                  The National Basketball Association All-Star Game
-               Most Valuable Player (MVP) is an annual National
-                Basketball Association (NBA) award given to the player(s)
-                </p>
-                <p class="go-right">
-                  <strong>Archive More + featured pictures...</strong>
-                </p>
-              </div>
-            </div>
+          <div class="footer-wrapper">
           </div>
         </div>
-        <div id="other-areas-row" class="row">
-
-        </div>
-        <div id="sis-projects-row" class="row">
-
-        </div>
-        <div id="languages-row" class="row">
-
-        </div>
-      </div>
-      <div class="footer-wrapper">
-
       </div>
     </div>
-  </body>
+</body>
+
 </html>
